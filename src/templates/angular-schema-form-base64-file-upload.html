@@ -7,7 +7,7 @@
             <div class="base64-file--file">
                 <div class="base64-file--file-name">{{file.name}}</div>
                 <div class="base64-file--file-size">{{file.humanSize}}</div>
-                <div class="base64-file--file-remove" ng-click="removeFile($event)">&#10005</div>
+                <a href="javascript:void(0);" class="base64-file--file-remove" ng-click="removeFile($event)">&#10005</a>
             </div>
         </div>
         <button type="button" ng-hide="hasFile">
